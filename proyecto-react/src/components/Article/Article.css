@@ -1,0 +1,70 @@
+article{
+    border: 1px solid black;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}
+.fila .show{
+    display: flex;
+    flex-direction: column;
+}
+.descButton{
+    cursor: pointer;
+}
+.descButton:hover{
+    color: grey;
+}
+.masInfo{
+    color: lightgrey;
+    font-style: italic;
+}
+.columna{
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color:  rgb(220,20,60);
+    color: white;
+    border-radius: 5px;
+}
+.fila .contentArticle{
+    padding-left: 40px;
+}
+.fila{
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color:  rgb(220,20,60);
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    gap: 5px;
+   
+}
+.fila img{
+    width: 25%;
+}
+
+.botones{
+    margin: 5px;
+}
+.boton{
+    margin: 10px;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+}
+  
+.zoom:hover {
+    transform: scale(1.04); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
